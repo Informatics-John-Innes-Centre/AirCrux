@@ -39,3 +39,21 @@ Researchers often need to capture close-up images of individual 2x4m field plots
 - Compatibility guidance for importing KMLs into DJI flight planning tools (e.g., DJI GS Pro, DJI Pilot 2)  
 - Example templates or scripts to simplify this process for repeated trials
 
+
+---
+
+## 4. Automatically Generating Shapefile Polygons Around Field Trial Plots
+
+**Problem:**  
+Creating accurate plot-level shapefiles (e.g. 2x4 m rectangles) over field trials is a repetitive and error-prone task when done manually. Automating this step—especially when trial designs are regular (grid-based) or have known metadata (e.g., plot IDs, row/column structure)—would save time and improve consistency across trials and teams.
+
+**Needs:**  
+- Tools or scripts that can generate plot polygons based on trial layout parameters (e.g., number of rows/columns, plot size, buffer width)  
+- Integration with QGIS or other GIS platforms  
+- Ability to align generated plots with field boundaries or drone imagery using reference points or georeferenced basemaps  
+- Support for exporting directly to shapefile/GeoJSON with plot IDs and metadata embedded
+
+**Bonus:**  
+- GUI or user-friendly interface for non-programmers  
+- Ability to import CSV layout plans and generate polygons automatically  
+
