@@ -57,3 +57,21 @@ Creating accurate plot-level shapefiles (e.g. 2x4 m rectangles) over field tri
 - GUI or user-friendly interface for non-programmers  
 - Ability to import CSV layout plans and generate polygons automatically  
 
+---
+
+## 5. Mapping AI-Derived Results from Raw Drone Imagery Back to Plot-Level Data
+
+**Problem:**  
+High-resolution drone frames (raw images) often capture crop features—like wheat heads or lodging—with much greater clarity than stitched orthomosaics, which can suffer from motion blur or stitching artifacts, especially in windy conditions. However, most downstream analysis pipelines (e.g., spatial statistics, phenotypic summaries) expect data aligned to orthomosaics or plot shapefiles.
+
+This creates a disconnect: results derived from individual frames (e.g. using AI models for wheat head detection) need to be mapped or projected back into a geospatial context that matches the trial layout.
+
+**Needs:**  
+- Methods to geolocate detections from raw images and assign them to field plots  
+- Tools to project detections into a common spatial coordinate system without requiring a stitched mosaic  
+- Integration with standard shapefiles or plot layouts to enable summary statistics per plot  
+- Solutions that account for drone orientation, lens distortion, and altitude metadata to improve accuracy
+
+**Bonus:**  
+- Frameworks that let users train/validate models on raw images and still export orthomosaic-style plot summaries  
+- Examples or case studies demonstrating this approach in real-world trials
