@@ -24,4 +24,18 @@ While OpenDroneMap (ODM) supports basic radiometric calibration, workflows for u
 **Needs:**  
 - Support in ODM for automated or semi-automated panel-based calibration  
 - Community guidance or scripts for integrating reflectance panel data into processing  
-- Validation tools to check whether calibration has improved data quality  
+- Validation tools to check whether calibration has improved data quality
+
+- ---
+
+## 3. Creating KML Files for Targeted Flight Plans in DJI Drones
+
+**Problem:**  
+Researchers often need to capture close-up images of individual 2x4m field plots, separate from broader mapping missions. This requires generating a KML file from QGIS with points at the center of each plot, which can be used to guide a DJI drone to take targeted photos at lower altitudes. However, translating QGIS output into a DJI-compatible KML format—especially with proper coordinate precision and altitude settings—is error-prone and poorly documented.
+
+**Needs:**  
+- Clear workflow for generating correctly formatted KML files in QGIS  
+- Ability to set custom flight altitudes for individual waypoints  
+- Compatibility guidance for importing KMLs into DJI flight planning tools (e.g., DJI GS Pro, DJI Pilot 2)  
+- Example templates or scripts to simplify this process for repeated trials
+
