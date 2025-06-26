@@ -5,7 +5,7 @@ NOTE Initial commit made from a brain dump and ChatGPT to flesh it out. Nonsense
 
 ## Workflow: Current Aerial Data Capture workflow
 
-### 🛫 Flight & Data Capture
+### Flight & Data Capture
 
 - **Pre-Flight Planning**
   - Define survey area and flight parameters (altitude, overlap, speed).
@@ -24,7 +24,7 @@ NOTE Initial commit made from a brain dump and ChatGPT to flesh it out. Nonsense
 
 ---
 
-### 🖥️ Processing in Pix4D
+### Processing in Pix4D
 
 - **Import and Setup**
   - Create a new project and load captured images.
@@ -45,7 +45,7 @@ NOTE Initial commit made from a brain dump and ChatGPT to flesh it out. Nonsense
 
 ---
 
-### 🧮 Data Analysis in QGIS (Zonal Statistics)
+### Data Analysis in QGIS (Zonal Statistics)
 
 - **Load Data**
   - Open QGIS and import:
@@ -68,7 +68,7 @@ NOTE Initial commit made from a brain dump and ChatGPT to flesh it out. Nonsense
 
 ---
 
-### ✅ Summary
+### Summary
 
 This workflow allows you to capture multispectral imagery using a drone, process it with Pix4D to generate NDVI maps, and extract statistical insights using QGIS for site-specific analysis or reporting.
 
