@@ -55,7 +55,14 @@ Creating accurate plot-level shapefiles (e.g. 2x4 m rectangles) over field tri
 
 **Bonus:**  
 - GUI or user-friendly interface for non-programmers  
-- Ability to import CSV layout plans and generate polygons automatically  
+- Ability to import CSV layout plans and generate polygons automatically
+- 
+
+**Current methods**
+- Grid tool in QGIS
+- FieldImageR
+- Grid - looks pretty good https://poissonfish.github.io/GRID/ch4_adv/qgis.html
+- Paper but repo gone from github https://www.sciencedirect.com/science/article/pii/S2352711025000500?via%3Dihub#section-cited-by
 
 ---
 
