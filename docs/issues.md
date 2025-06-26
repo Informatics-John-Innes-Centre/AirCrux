@@ -26,6 +26,21 @@ While OpenDroneMap (ODM) supports basic radiometric calibration, workflows for u
 - Community guidance or scripts for integrating reflectance panel data into processing  
 - Validation tools to check whether calibration has improved data quality
 
+**Existing**
+- https://github.com/micasense/imageprocessing
+
+- Also, I noticed that ODM has at least acknowledged at some point that it might be needed.
+
+https://github.com/OpenDroneMap/ODM/blob/cd47bf817b7f201db4506bb2713b7caa3032f263/opendm/multispectral.py#L134C1-L135C43
+
+- There are a few other repos that appear to have tried to do it;
+https://github.com/ternaustralia/drone_metashape
+https://github.com/mikoontz/neon-drone-workflow/
+
+- My hope is that I can repropose this;
+
+https://github.com/moghi005/Micasense_preprocessing/blob/master/irradiance_correction_by_panel.py
+
 - ---
 
 ## 3. Creating KML Files for Targeted Flight Plans in DJI Drones
