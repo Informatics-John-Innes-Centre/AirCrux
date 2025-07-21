@@ -41,6 +41,7 @@ https://github.com/mikoontz/neon-drone-workflow/
 
 https://github.com/moghi005/Micasense_preprocessing/blob/master/irradiance_correction_by_panel.py
 
+https://github.com/SenteraLLC/py-radiometric-corrections
 - ---
 
 ## 3. Creating KML Files for Targeted Flight Plans in DJI Drones
